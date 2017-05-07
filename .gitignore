@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+dist/
+npm-debug.log
+.idea
+*.iml
+public/doubanSSR.gif
+public/logo-120.png
+public/logo-144.png
+public/logo-152.png
+public/logo-192.png
+public/logo-384.png
+public/logo-48.png
