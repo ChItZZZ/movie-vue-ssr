@@ -8,8 +8,6 @@
             <el-button slot="append" icon="search" @click="searchMovie"></el-button>
           </el-input>
         </div>
-        <img class="douban-title-img"
-             src="https://img3.doubanio.com/f/movie/9f89b66fd864158832aa65002525bb34fb029a56/pics/movie/events/annual2016/ad_web.png">
       </div>
     </div>
     <div class="douban-bar">

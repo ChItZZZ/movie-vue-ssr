@@ -70,7 +70,7 @@ export default{
   margin: 10px auto 0;
   min-height: 500px;
   .movie-container
-    width: 560px;
+    /*width: 560px;*/
     border-top: 1px dashed #ccc;
     margin-top: -10px;
     .movieTag
@@ -81,7 +81,7 @@ export default{
       font-size: 12px;
       text-align: center;
       display: inline-block;
-      margin: 0 20px 20px 0;
+      margin: 20px;
       ul
         margin: 0 auto;
         padding: 0;
@@ -137,7 +137,6 @@ export default{
             color: #fff;
     .load-more
       cursor: pointer;
-      width: 530px;
       height: 30px;
       line-height: 30px;
       text-align: center;
