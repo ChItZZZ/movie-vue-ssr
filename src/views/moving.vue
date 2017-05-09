@@ -52,6 +52,7 @@
       }
     },
     mounted () {
+      //vue-router vuex相关属性
       console.log(this.$route);
       console.log(this.$router);
       console.log(this.$store.state.moving)
