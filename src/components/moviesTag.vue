@@ -30,6 +30,7 @@
   </div>
 </template>
 <script>
+import {mapGetters} from 'vuex'
 export default{
   props: {
     data: Object
@@ -56,8 +57,9 @@ export default{
     }
   },
   computed: {
+    ...mapGetters(['loadingMoving']),
     loadingMoving () {
-      return this.$store.getters.loadingMoving
+      return this.loadingMoving
     }
   }
 }
